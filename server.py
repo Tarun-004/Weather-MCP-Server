@@ -3,7 +3,7 @@ import requests
 
 mcp = FastMCP("WeatherServer")
 
-API_KEY = "59727b3f28fd25570c15bc658c55a4f9"
+API_KEY = "paste_your_api_key"
 
 
 @mcp.tool()
