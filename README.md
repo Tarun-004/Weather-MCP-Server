@@ -1,10 +1,10 @@
-# 🌤️ Weather MCP Server
+#  Weather MCP Server
 
 A lightweight [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that gives AI assistants (like Claude) the ability to fetch real-time weather data for any city using the [OpenWeatherMap API](https://openweathermap.org/api).
 
 ---
 
-## 📌 What It Does
+##  What It Does
 
 This MCP server exposes a single tool — `get_weather` — that an AI assistant can call to retrieve the current weather conditions for any city in the world.
 
@@ -15,7 +15,7 @@ The weather in London is light rain with 13°C.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python** — core language
 - **[FastMCP](https://github.com/jlowin/fastmcp)** — framework for building MCP servers quickly
@@ -24,7 +24,7 @@ The weather in London is light rain with 13°C.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -47,7 +47,7 @@ Get a free API key from [OpenWeatherMap](https://openweathermap.org/api), then o
 API_KEY = "your_openweathermap_api_key_here"
 ```
 
-> ⚠️ **Never commit your API key to GitHub.** Consider using a `.env` file and the `python-dotenv` package to keep it safe.
+>  **Never commit your API key to GitHub.** Consider using a `.env` file and the `python-dotenv` package to keep it safe.
 
 ### 4. Run the Server
 
@@ -57,7 +57,7 @@ python server.py
 
 ---
 
-## 🔧 MCP Configuration
+##  MCP Configuration
 
 To connect this server to an MCP-compatible client (e.g., Claude Desktop), add the following to your MCP config file:
 
@@ -74,7 +74,7 @@ To connect this server to an MCP-compatible client (e.g., Claude Desktop), add t
 
 ---
 
-## 🧰 Available Tool
+##  Available Tool
 
 ### `get_weather`
 
@@ -88,7 +88,7 @@ Fetches the current weather for a given city.
 
 ---
 
-## 💡 Ideas for Future Improvements
+##  Ideas for Future Improvements
 
 - [ ] Add support for forecasts (5-day, hourly)
 - [ ] Return humidity, wind speed, and UV index
