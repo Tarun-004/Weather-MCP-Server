@@ -29,7 +29,7 @@ The weather in London is light rain with 13°C.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/weather-mcp.git
+git clone https://github.com/Tarun-004/weather-mcp.git
 cd weather-mcp
 ```
 
@@ -88,17 +88,6 @@ Fetches the current weather for a given city.
 
 ---
 
-## 📁 Project Structure
-
-```
-weather-mcp/
-├── server.py        # MCP server with the get_weather tool
-├── mcp_config.json  # MCP client configuration
-└── README.md        # You are here
-```
-
----
-
 ## 💡 Ideas for Future Improvements
 
 - [ ] Add support for forecasts (5-day, hourly)
@@ -107,12 +96,3 @@ weather-mcp/
 - [ ] Use environment variables for the API key
 - [ ] Add error handling for invalid city names
 
----
-
-## 📄 License
-
-MIT License — feel free to use and modify this project.
-
----
-
-> Built with ❤️ using [FastMCP](https://github.com/jlowin/fastmcp) and [OpenWeatherMap](https://openweathermap.org/).
